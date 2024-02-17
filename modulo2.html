@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            color: white;
+            background-color: rgb(118, 149, 214);
+        }
+    </style>
+</head>
+<body>
+    <h1>Modulo 2 - tabelas e formularios</h1>
+    <table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Definição</th>
+        <th>Sintaxe</th>
+    </tr>
+    <tr>
+        <td>table</td>
+        <td>cria uma tabela</td>
+        <td>&lt;table&gt;conteudo&lt;/table&gt;</td>
+    </tr>
+    <tr>
+        <td> tr </td>
+        <td>cria uma linha</td>
+        <td>&lt;tr&gt;conteudo&lt;/tr&gt;</td>
+    </tr>
+    <tr>
+        <td> td </td>
+        <td>cria uma celula</td>
+        <td>&lt;td&gt;conteudo&lt;/td&gt;</td>
+    </tr>
+    <tr>
+        <td>th</td>
+        <td>define uma celula de cabeçalho</td>
+        <td>&lt;th&gt;conteudo&lt;/th&gt;</td>
+    </tr>
+    <tr>
+        <td>thead</td>
+        <td>criar um cabeçalho de tabela</td>
+        <td>&lt;thead&gt;conteudo&lt;/thead&gt;</td>
+    </tr>
+    <tr>
+        <td>tbody</td>
+        <td>agrupar o conteúdo do corpo em uma tabela</td>
+        <td>&lt;tbody&gt;conteudo&lt;/tbody&gt;</td>
+    </tr>
+    <tr>
+        <td>tfoot</td>
+        <td>definir o rodapé de uma tabela</td>
+        <td>&lt;tfoot&gt;conteudo&lt;/tfoot&gt;</td>
+    </tr>
+    <tr>
+        <td>celulas vazias</td>
+        <td>usar a tr ou a td vazias</td>
+        <td>&lt;tr/&gt;ou &lt;td/&gt;</td>
+    </tr>
+    <tr>
+        <td>atributo colspan</td>
+        <td>agrupa colunas e é colocado dentro da tag td</td>
+        <td>&lt;td colspan="numero de colunas"&gt;conteudo&lt;/td&gt;</td>
+    </tr>
+    <tr>
+        <td>atributo rowspan</td>
+        <td>agrupa linhas e é colocado dentro da tag th</td>
+        <td>&lt;th rowspan="numero de linhas"&gt;conteudo&lt;/th&gt;</td>
+    </tr>
+    <tr>
+        <td>caption</td>
+        <td>especifica a legenda ou um titulo de uma tabela</td>
+        <td>&lt;caption&gt;titulo&lt;/caption&gt;</td>
+    </tr>
+    <tr>
+        <td>colgroup</td>
+        <td>grupo de colunas</td>
+        <td>&lt;colgroup&gt;conteudo&lt;/colgroup&gt;</td>
+    </tr>
+    <tr>
+        <td>col</td>
+        <td>define as propriedades da coluna para cada coluna especificada dentro da tag colgroup</td>
+        <td>&lt;col atributo="valor"&gt;</td>
+    </tr>
+    <tr>
+        <td>form</td>
+        <td>é o elemento que formalmente define o formulario e os atributos que definem a maneira como esse formulario se comporta</td>
+        <td>&lt;form&gt;conteudo&lt;/form&gt;</td>
+    </tr>
+    <tr>
+        <td>metodo GET</td>
+        <td>é o metodo usado pelo navegador para pedir ao servidor para enviar de volta um determinado assunto</td>
+        <td>&lt;form action="link" method= "get"&gt;</td>
+    </tr>
+    <tr>
+        <td>metodo post</td>
+        <td>é o metodo que o navegador envia ao servidor para pedir uma resposta que leva em conta os dados fornecidos no copo da solicitação HTTP</td>
+        <td>&lt;form action="link" method= "post"&gt;</td>
+    </tr>
+    <tr>
+        <td>metodo post</td>
+        <td>é o metodo que o navegador envia ao servidor para pedir uma resposta que leva em conta os dados fornecidos no copo da solicitação HTTP</td>
+        <td>&lt;form action="link" method= "post"&gt;</td>
+    </tr>
+    <tr>
+        <td>input</td>
+        <td>é usado para criar controles interativos para formularios baseados na web para receber dados do usuario</td>
+        <td>&lt;input&gt;</td>
+    </tr>
+    <tr>
+        <td>type button</td>
+        <td>cria um botao</td>
+        <td>&lt;input type="button"&gt;</td>
+    </tr>
+    <tr>
+        <td>type submit</td>
+        <td>cria um botao para enviar o formulario</td>
+        <td>&lt;input type="submit"&gt;</td>
+    </tr>
+    <tr>
+        <td>type checkbox</td>
+        <td>uma caixa de marcação</td>
+        <td>&lt;input type="button"&gt;</td>
+    </tr>
+    <tr>
+        <td>type radio</td>
+        <td>um botão de escolha</td>
+        <td>&lt;input type="radio"&gt;</td>
+    </tr>
+    <tr>
+        <td>type color</td>
+        <td>um controle para especificar cores</td>
+        <td>&lt;input type="color"&gt;</td>
+    </tr>
+    <tr>
+        <td>type date</td>
+        <td>um controle para inserir uma data</td>
+        <td>&lt;input type="date"&gt;</td>
+    </tr>
+    <tr>
+        <td>type datetime-local</td>
+        <td>um controle para inserir data e horário </td>
+        <td>&lt;input type="datetime-local"&gt;</td>
+    </tr>
+    <tr>
+        <td>type month</td>
+        <td>um controle para inserir um número de ponto flutuante </td>
+        <td>&lt;input type="month"&gt;</td>
+    </tr>
+    <tr>
+        <td>type time</td>
+        <td>um controle para inserir um horário sem fuso horário </td>
+        <td>&lt;input type="time"&gt;</td>
+    </tr>
+    <tr>
+        <td>type email</td>
+        <td>um campo para editar um endereço de e-mail </td>
+        <td>&lt;input type="email"&gt;</td>
+    </tr>
+    <tr>
+        <td>type url</td>
+        <td>um campo para editar uma URL </td>
+        <td>&lt;input type="url"&gt;</td>
+    </tr>
+    <tr>
+        <td>type password</td>
+        <td>um campo de texto com uma só linha cujo valor é obscurecido </td>
+        <td>&lt;input type="password"&gt;</td>
+    </tr>
+    <tr>
+        <td>type week</td>
+        <td>um controle para inserir uma data consistindo de ano da semana e número da semana sem fuso horário</td>
+        <td>&lt;input type="week"&gt;</td>
+    </tr>
+    <tr>
+        <td>type search</td>
+        <td>um campo de texto com uma só linha para digitar termos de busca </td>
+        <td>&lt;input type="search"&gt;</td>
+    </tr>
+   
+    <tr>
+        <td>type hidden</td>
+        <td>um controle que não é exibido mas cujo valor é enviado ao servidor</td>
+        <td>&lt;input type="hidden"&gt;</td>
+    </tr>
+    <tr>
+        <td>type image</td>
+        <td>define uma imagem como botão de envio do formulario Html</td>
+        <td>&lt;input type="image"&gt;</td>
+    </tr>
+    <tr>
+        <td>type file</td>
+        <td>um controle que permite ao usuario selecionar um arquivo </td>
+        <td>&lt;input type="file"&gt;</td>
+    </tr>
+     <tr>
+        <td>type range</td>
+        <td>um controle para inserir um número cujo valor exato não é importante </td>
+        <td>&lt;input type="range"&gt;</td>
+    </tr>
+     <tr>
+        <td>type number</td>
+        <td>um controle para inserir um número de ponto flutuante </td>
+        <td>&lt;input type="number"&gt;</td>
+    </tr>
+     <tr>
+        <td>type tel</td>
+        <td>um controle para inserir um número de telefone </td>
+        <td>&lt;input type="tel"&gt;</td>
+    </tr>
+     <tr>
+        <td>type text</td>
+        <td>um campo de texto com uma só linha </td>
+        <td>&lt;input type="text"&gt;</td>
+    </tr>
+     <tr>
+        <td>tag textarea</td>
+        <td>um controle de entrada de texto de varias linhas</td>
+        <td>&lt;textarea id="w3review" name="w3review" rows="4" cols="50"&gt;</td>
+    </tr>
+    
+   </table>
+</body>
+</html>
